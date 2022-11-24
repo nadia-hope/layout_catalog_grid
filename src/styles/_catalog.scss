@@ -1,12 +1,9 @@
 .catalog {
   display: grid;
+  grid-template-columns: repeat(1, 200px);
   justify-content: center;
   gap: 48px;
   margin: 0 auto;
-
-  @media (max-width: 487px) {
-    grid-template-columns: repeat(1, 200px);
-  }
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, 200px);
